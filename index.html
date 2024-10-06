@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アイテム合計金額計算</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>アイテム合計金額計算</h1>
+        <form id="itemForm">
+            <label for="G">入手したGの数:</label>
+            <input type="number" id="G" min="0" value="0"><br>
+
+            <label for="satu">入手した札の数:</label>
+            <input type="number" id="satu" min="0" value="0"><br>
+
+            <label for="kin">入手した金塊の数:</label>
+            <input type="number" id="kin" min="0" value="0"><br>
+
+            <label for="sapphire">入手したサファイヤの数:</label>
+            <input type="number" id="sapphire" min="0" value="0"><br>
+
+            <label for="emerald">入手したエメラルドの数:</label>
+            <input type="number" id="emerald" min="0" value="0"><br>
+
+            <label for="ruby">入手したルビーの数:</label>
+            <input type="number" id="ruby" min="0" value="0"><br>
+
+            <label for="diamond">入手したダイヤモンドの数:</label>
+            <input type="number" id="diamond" min="0" value="0"><br>
+
+            <label for="reddiamond">入手したレッドダイヤモンドの数:</label>
+            <input type="number" id="reddiamond" min="0" value="0"><br>
+
+            <label for="yellowdiamond">入手したイエローダイヤモンドの数:</label>
+            <input type="number" id="yellowdiamond" min="0" value="0"><br>
+
+            <label for="pearlS">入手した真珠(小)の数:</label>
+            <input type="number" id="pearlS" min="0" value="0"><br>
+
+            <label for="pearlM">入手した真珠(中)の数:</label>
+            <input type="number" id="pearlM" min="0" value="0"><br>
+
+            <label for="pearlL">入手した真珠(大)の数:</label>
+            <input type="number" id="pearlL" min="0" value="0"><br>
+
+            <button type="button" id="calculateButton">計算</button>
+        </form>
+        <p id="result">合計金額: 0</p>
+        <p id="rank">ランク: なし</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
